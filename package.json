@@ -1,0 +1,25 @@
+{
+  "name": "signup_proxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy for dynamic squad stack signup",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chockalingam-subbaiah/signup_proxy.git"
+  },
+  "author": "Chockalingam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chockalingam-subbaiah/signup_proxy/issues"
+  },
+  "homepage": "https://github.com/chockalingam-subbaiah/signup_proxy#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.1",
+    "url-exists": "^1.0.3"
+  }
+}
